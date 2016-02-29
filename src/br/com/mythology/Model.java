@@ -9,7 +9,7 @@ import com.db4o.query.Query;
 
 public class Model{
 	
-	private String path = "G:/BD/FATEC A sem/Lab 3/work/mythology/db/";
+	private String path = "H:/BD/FATEC A sem/Lab 3/work/mythology/db/";
 	
 	private ObjectContainer characters = Db4oEmbedded.openFile(Db4oEmbedded.newConfiguration(), path+"/db.db4o");	
 	
